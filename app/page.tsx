@@ -1,3 +1,9 @@
+import {FeaturedProjects} from "@/components/FeaturedProjects";
+
 export default function Home() {
-    return <div>Hello world!</div>;
+    return (
+        <main className="min-h-screen bg-white px-6 py-12 md:px-12 lg:px-16 lg:py-24">
+            <FeaturedProjects />
+        </main>
+    );
 }

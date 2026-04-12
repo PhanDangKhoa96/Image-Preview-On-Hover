@@ -3,11 +3,21 @@ import "./globals.css";
 import {LenisProvider} from "@/providers/LenisProvider";
 import {GsapProvider} from "@/providers/GsapProvider";
 import {cn} from "@/lib/utilities/cn";
-import {geistVF} from "@/lib/fonts";
+import {spaceGrotesk} from "@/lib/fonts";
+import {Header} from "@/components/Header";
 
 export const metadata: Metadata = {
-    title: "Khoa Phan Playground",
-    description: "Khoa Phan's Playground",
+    title: "Khoa Phan — Image Preview on Hover",
+    description:
+        "A curated collection of street photography projects by Khoa Phan.",
+    keywords: [
+        "Khoa Phan",
+        "street photography",
+        "featured projects",
+        "photography",
+        "animation",
+        "image preview on hover"
+    ],
 };
 
 export default function RootLayout({
@@ -17,7 +27,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={cn("antialiased", geistVF.variable)}>
+            <body
+                className={cn(
+                    "antialiased",
+                    spaceGrotesk.variable,
+                    "font-space-grotesk"
+                )}>
+                <Header />
                 <LenisProvider>{children}</LenisProvider>
                 <GsapProvider scrollTrigger />
             </body>

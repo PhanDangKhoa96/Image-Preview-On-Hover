@@ -10,6 +10,7 @@
 */
 
 @theme {
+    --font-space-grotesk: var(--font-space-grotesk);
 }
 
 @layer base {

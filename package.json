@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@darkroom.engineering/tempus": "^0.0.46",
     "@gsap/react": "^2.1.2",
     "clsx": "^2.1.1",
     "gsap": "^3.14.2",

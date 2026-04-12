@@ -1,9 +1,9 @@
-import localFont from "next/font/local";
+import {Space_Grotesk} from "next/font/google";
 
-const geistVF = localFont({
-    src: "../public/fonts/GeistVF.woff",
-    variable: "--font-geistVF",
+const spaceGrotesk = Space_Grotesk({
+    subsets: ["latin"],
+    variable: "--font-space-grotesk",
     display: "swap",
 });
 
-export {geistVF};
+export {spaceGrotesk};
