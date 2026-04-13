@@ -49,32 +49,4 @@ export const projects: Project[] = [
         date: "08/08/23",
         image: "/image-06.png",
     },
-    {
-        id: "007",
-        number: "007",
-        title: "Analog Days: The Pulse of the City",
-        date: "13/10/23",
-        image: "/image-07.png",
-    },
-    {
-        id: "008",
-        number: "008",
-        title: "Fleeting Moments: Street Souls in Film",
-        date: "13/09/23",
-        image: "/image-08.png",
-    },
-    {
-        id: "009",
-        number: "009",
-        title: "Grit and Grace: Stories from the Sidewalk",
-        date: "16/07/23",
-        image: "/image-09.png",
-    },
-    {
-        id: "010",
-        number: "010",
-        title: "City Whispers: Capturing the Quiet Moments",
-        date: "03/04/23",
-        image: "/image-10.png",
-    },
 ];

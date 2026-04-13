@@ -1,14 +1,14 @@
-# Animation Boilerplate
+# Image Preview On Hover
 
-Description go here
+An interactive project listing where hovering over each row reveals a smooth image preview that follows the cursor. Built with GSAP for fluid cursor-tracking and slide animations, and Lenis for smooth scrolling.
 
-![Add your image here](IMAGE_LINK_GO_HERE)
+![Add your image here](https://ik.imagekit.io/khoaphan/playground/thumbnails/image-preview-on-hover.png?updatedAt=1776072650656)
 
-[Demo](DEMO_LINK)
+[Demo](https://github.com/PhanDangKhoa96/Image-Preview-On-Hover)
 
 ## Built with
 
-Next JS 15, Tailwind CSS, GSAP
+Next JS 16, Tailwind CSS, GSAP
 
 ## Installation
 
@@ -33,10 +33,7 @@ bun dev
 Follow Khoa: [Twitter](https://x.com/khoaphan_dev), [GitHub](https://github.com/PhanDangKhoa96)
 
 ## License
+
 [MIT](LICENSE)
 
 Made with :blue_heart: by [Khoa Phan](https://www.pldkhoa.dev/)
-
-
-
-
