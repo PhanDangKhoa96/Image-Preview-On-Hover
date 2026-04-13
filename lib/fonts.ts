@@ -1,4 +1,4 @@
-import {Space_Grotesk} from "next/font/google";
+import {Manrope, Space_Grotesk} from "next/font/google";
 
 const spaceGrotesk = Space_Grotesk({
     subsets: ["latin"],
@@ -6,4 +6,10 @@ const spaceGrotesk = Space_Grotesk({
     display: "swap",
 });
 
-export {spaceGrotesk};
+const manrope = Manrope({
+    subsets: ["latin"],
+    variable: "--font-manrope",
+    display: "swap",
+});
+
+export {spaceGrotesk, manrope};

@@ -10,7 +10,7 @@ interface ProjectRowProps {
 
 const ProjectRow = ({project, index, onHover}: ProjectRowProps) => {
     return (
-        <li className="border-b border-black/10 first:border-t">
+        <li className="border-b border-black/10 first:border-t font-manrope">
             <Link
                 href="#"
                 data-title={project.title}

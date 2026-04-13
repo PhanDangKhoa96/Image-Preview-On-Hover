@@ -3,8 +3,8 @@ import "./globals.css";
 import {LenisProvider} from "@/providers/LenisProvider";
 import {GsapProvider} from "@/providers/GsapProvider";
 import {cn} from "@/lib/utilities/cn";
-import {spaceGrotesk} from "@/lib/fonts";
-import {Header} from "@/components/Header";
+import {spaceGrotesk, manrope} from "@/lib/fonts";
+import {Header} from "@/components/global/Header";
 
 export const metadata: Metadata = {
     title: "Khoa Phan — Image Preview on Hover",
@@ -31,6 +31,7 @@ export default function RootLayout({
                 className={cn(
                     "antialiased",
                     spaceGrotesk.variable,
+                    manrope.variable,
                     "font-space-grotesk"
                 )}>
                 <Header />

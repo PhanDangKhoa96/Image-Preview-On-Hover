@@ -1,4 +1,4 @@
-import {FeaturedProjects} from "@/components/FeaturedProjects";
+import {FeaturedProjects} from "@/components/blocks/FeatureProjects/FeaturedProjects";
 
 export default function Home() {
     return (
