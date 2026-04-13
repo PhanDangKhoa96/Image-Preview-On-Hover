@@ -4,8 +4,6 @@ An interactive project listing where hovering over each row reveals a smooth ima
 
 ![Add your image here](https://ik.imagekit.io/khoaphan/playground/thumbnails/image-preview-on-hover.png?updatedAt=1776072650656)
 
-[Demo](https://github.com/PhanDangKhoa96/Image-Preview-On-Hover)
-
 ## Built with
 
 Next JS 16, Tailwind CSS, GSAP
